@@ -1,0 +1,147 @@
+.footer {
+	padding-top: 25px;
+	padding-bottom: 60px;
+}
+
+@media (min-width: 890px) {
+	.footer {
+		padding-top: 55px;
+	padding-bottom: 120px;	
+	
+	
+	}
+}
+
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:  flex-start;
+	margin-bottom: 30px;
+}
+
+
+
+@media (min-width: 890px) {
+	.footer-container {
+		flex-direction: row;
+	justify-content: space-between;
+	align-items:  center;	
+	
+	
+	}
+}
+
+
+.footer-copyright {
+	
+	text-align: left;
+	/* Style for "© OathJar," */
+
+color: #2e435e;
+font-size: 16px;
+font-weight: 300;
+line-height: 30px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+
+@media (min-width: 890px) {
+	.footer-copyright {
+		align-items: center;
+			width: 460px;
+			flex-direction: row;
+			margin-bottom: 0;
+	}
+}
+
+
+.footer-copyright__logo {
+	margin-right: 17px;
+	margin-bottom: 15px;
+	
+}
+
+
+@media (min-width: 890px) {
+	.footer-copyright__logo {
+		margin-bottom: 0px;
+	}
+}
+
+
+.footer-navigation {
+	
+	text-align: left;
+}
+
+@media (min-width: 890px) {
+	.footer-navigation {
+		text-align: right;
+			width: 650px;
+	}
+}
+
+.footer-navigation_list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+
+
+@media (min-width: 890px) {
+	.footer-navigation_list {
+		flex-direction: row;
+	}
+}
+
+.footer-navigation_list li {
+	margin-right: 0;
+	
+
+color: #2e435e;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+margin-bottom: 10px;
+}
+
+
+@media (min-width: 890px) {
+	.footer-navigation_list li {
+		margin-right: 33px;
+		margin-bottom: 0;
+	}
+}
+
+.footer-navigation_list li:last-child {
+	margin-right: 0;
+
+	/* Style for "Privacy Po" */
+
+}
+
+.footer-navigation_list a {
+	color: #2e435e;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+
+
+}
+
+
+
+.footer-navigation_list a:hover {
+	color: #eb5238;
+	text-decoration: none;
+
+
+}

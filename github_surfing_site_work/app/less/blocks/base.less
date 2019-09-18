@@ -1,0 +1,146 @@
+body {
+	// background: red;
+	background-image: url("../img/bg/bg-lines.png");
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: initial;
+	font-family: sans-serif;
+
+	// padding-bottom: 500px;
+
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.container {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	
+
+
+	@media (min-width: 1254px) {
+		  	width: 1224px;
+		  	padding-left: 0;
+		  	padding-right: 0;
+		  	margin-left: auto;
+	        margin-right: auto;
+
+
+	}
+
+	// height: 100px;
+	// background-color: blue;
+
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-column-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.relative {
+	position: relative;
+}
+
+
+				.read-more-link, а.read-more-link {
+				 
+				color: #333333;
+				text-decoration: none;
+				font-family: 'League-Spartan', sans-serif;
+				font-size: 9px;
+				font-weight: 700;
+				line-height: 1;
+				text-transform: uppercase; 
+				letter-spacing: 5.4px;
+				position: relative;
+				padding-bottom: 10px;
+				display: inline-block;
+
+				           &:after {
+				           	position: absolute;
+				           	left: 0;
+				           	right: 0;
+				           	bottom: 0px;
+				           	content: "";
+				         
+				           height: 2px;
+				           background-color: rgba(93, 168, 239, 0.7);
+				           
+				           }
+
+				}
+
+	.desc-text {
+		color: rgb(38%, 38%, 38%, 0.60);
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.35px;
+	}
+
+
+.title {
+
+color: #333333;
+font-family: 'Playfair Display', serif;
+font-size: 42px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.42px;
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+.subtitle {
+	display: block;
+	
+color: #5da8ef;
+font-family: 'League-Spartan', sans-serif;
+font-size: 9px;
+font-weight: 700;
+line-height: 1;
+text-transform: uppercase;
+letter-spacing: 5.4px;
+text-align: center;
+}
+
+.title-desc {
+    .desc-text;
+margin-bottom: 35px;
+}
+
+
+
+
+.vertical-text	{
+	color: rgba(11, 12, 17, 0.2);
+font-family: 'League-Spartan', sans-serif;
+font-size: 9px;
+font-weight: 700;
+line-height: 1;
+text-transform: uppercase;
+letter-spacing: 5.4px;
+
+transform: rotate(-90deg) translate(-100%,0);
+position: absolute;
+left: 0;
+top: 0;
+transform-origin: left top;
+}

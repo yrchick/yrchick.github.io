@@ -1,0 +1,66 @@
+body { 
+	font-family: 'Sawarabi Gothic', sans-serif; 
+} 
+
+.imgHolder{ 
+	display: flex; 
+} 
+
+.row{ 
+	display: flex; 
+} 
+
+.model-summary{ 
+	background: rgba(255,245,215,.4); 
+	width: 200px; 
+	height: 200px; 
+	border-radius: 20px; 
+	text-align: center; 
+	margin-top: 50px; 
+	line-height: 35px; 
+} 
+
+.model-name{ 
+	color: rgba(42, 81, 147, 0.66);
+} 
+
+.col-1-of-3{ 
+	margin:0 30px; 
+	padding-bottom: 20px;
+} 
+
+#autoForm{ 
+    display: flex;
+} 
+
+.colorItem{ 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 50%; 
+	padding: 35px; 
+	margin: 10px; 
+} 
+
+.colorBlue{ 
+	background-color: blue;
+} 
+
+.colorBlack{ 
+	background-color: black; 
+} 
+
+.colorGrey{ 
+	background-color: gray; 
+} 
+
+.colorOrange{ 
+	background-color: orange; 
+} 
+
+.colorSelector{ 
+	display: flex;
+} 
+
+.model-price{ 
+	color: #5b75ff;
+}﻿
